@@ -37,7 +37,7 @@ module "ecs" {
   }
 
   services = {
-    kristine-ecs-cicd = { #task def and service name -> #Change
+    kristine-ecs-cicd = { #task def and service name -> #Changed
       cpu    = 512
       memory = 1024
       # Container definition(s)
